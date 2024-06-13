@@ -1,6 +1,6 @@
 # Crank Software Torizon Docker Containers Repository
 
-This repository contains projects showcasing how to create Docker containers that package Storyboard applications for deployment. It uses Weston as the Wayland compositor to manage the graphical stack and leverage GPU acceleration. The objective of this guide is for users to build and run their own Crank containers. **Please note that the runtime engine code is not included in these demos but can be found in the Storyboard installation path.**
+This repository contains projects showcasing how to create Docker containers that package Storyboard applications for Torizon. It uses Weston as the Wayland compositor to manage the graphical stack and leverage GPU acceleration. The objective of this guide is for users to build and run their own Crank containers. **Please note that the runtime engine code is not included in these demos but can be found in the Storyboard installation path.**
 
 ## OVERVIEW
 
