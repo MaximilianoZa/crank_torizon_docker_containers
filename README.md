@@ -1,4 +1,6 @@
-# Creating and Running Your Crank Container
+# Crank Software Torizon Docker Containers Repository
+
+This repository contains projects showcasing how to create Docker containers that package Storyboard applications for deployment. It uses Weston as the Wayland compositor to manage the graphical stack and leverage GPU acceleration. The objective of this guide is for users to build and run their own Crank containers. **Please note that the runtime engine code is not included in these demos but can be found in the Storyboard installation path.**
 
 ## OVERVIEW
 
@@ -149,12 +151,18 @@ The flags you need to set will vary depending on the target device you are using
 - Command to run the Crank container on a TI62 in Torizon OS 6:
 `docker run -it --rm --name=crank -v /tmp:/tmp -v /var/run/dbus:/var/run/dbus -v /dev/dri:/dev/dri  --device-cgroup-rule='c 226:* rmw'  cranksoftware/crank_ti62_sb_8_1_weston_am62_3:v0.1 `
 
+## CONTRIBUTIONS
 
+We welcome contributions from the community! If you have a demo that showcases Storyboard's integration with external tools, feel free to submit a pull request. Please ensure your demo includes:
 
+- A clear and concise README file
+- Step-by-step setup instructions
+- Descriptions of the external tools used
+- Any necessary code or configuration files
 
+## SUPPORT
 
-
-
+If you encounter any issues or have questions about the demos, please contact [Crank Software Support](https://support.cranksoftware.com/hc/en-us/requests/new).
 
 
 
