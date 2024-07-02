@@ -68,11 +68,11 @@ Notes:
 
 After successfully launching your weston container you should see a grey screen (may be blue or different color depending on the container you are using) that looks like this:
 
-![alt text](https://github.com/MaximilianoZa/crank_torizon_docker_containers/blob/244d59e20d72de2f6366d1f5e16c17ca44e5c9ea/images/weston_container_up.png?raw=true)
+![alt text](/images/weston_container_up.png?raw=true)
 
 if you run docker `-ps` you should see the container with the status `Up`:
 
-![alt text](https://github.com/MaximilianoZa/crank_torizon_docker_containers/blob/244d59e20d72de2f6366d1f5e16c17ca44e5c9ea/images/weston_container_ps_up.PNG?raw=true)
+![alt text](/images/weston_container_ps_up.PNG?raw=true)
 
 Notes: 
 - Note1: To enter your container you can use this command: 	
@@ -87,7 +87,7 @@ weston-info
 ## BUILDING YOUR CRANK CONTAINER
 We have created several Visual Studio Code projects than you can build on your PC. Here is an example of how the projects structure looks like:
 
-![alt text](https://github.com/MaximilianoZa/crank_torizon_docker_containers/blob/244d59e20d72de2f6366d1f5e16c17ca44e5c9ea/images/project_structure.png?raw=true)
+![alt text](/images/project_structure.png?raw=true)
 
 -	*apps*: Here you can place your application. We have packed some already
 -	*runtimes*: This is a place holder for you to place the sbengine suitable for your device
@@ -101,13 +101,13 @@ Eventually, you will create your own application. For quick testing you can also
 <https://github.com/crank-software/storyboard-demos>
 Once you open your project in Storyboard, from the Storyboard Application Export Configuration window you can choose gapp packager, Filesystem transfer method and export your project to the apps directory.
 
-![alt text](https://github.com/MaximilianoZa/crank_torizon_docker_containers/blob/244d59e20d72de2f6366d1f5e16c17ca44e5c9ea/images/sb_project_export.png?raw=true)
+![alt text](/images/sb_project_export.png?raw=true)
 
 ### RUNTIMES: EXPORTING YOUR SB ENGINE
 The second bit is straightforward coping the runtime engine from the storyboard installation path to the runtimes directory created in the Visual Studio Code project.
 Example, for the IMX8 you would use the linux-imx8yocto-armle-opengles_2.0-wayland-obj runtime:
 
-![alt text](https://github.com/MaximilianoZa/crank_torizon_docker_containers/blob/244d59e20d72de2f6366d1f5e16c17ca44e5c9ea/images/sb_engine_selection.PNG?raw=true)
+![alt text](/images/sb_engine_selection.PNG?raw=true)
 
 ### DOCKER_SBENGINE.SH: EDITING THE LAUNCHING SCRIPT
 The third step consists of, if necessary, editing and adapting the lunch script to your system needs.
