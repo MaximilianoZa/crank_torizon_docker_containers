@@ -14,7 +14,7 @@ However, you can choose to:
 These are all design decisions that can be adapted based on your specific requirements and constraints.
 In this repository you will find several projects for creating different images for different target devices. You can choose the one that best suits your needs. In some cases, you may need to make some changes to your system requirements
 
-Link to cheat sheet /README-cheatsheet.md
+Link to [cheat sheet](/README-cheatsheet.md)
 
 ## PREREQUISITES
 Before going through this guide, we advise you to have at least:
