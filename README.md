@@ -147,7 +147,7 @@ You can now pull and run the container on your target device running the a `dock
 The flags you need to set will vary depending on the target device you are using. For example the `-v /dev/galcore:/dev/galcore --device-cgroup-rule='c 199:* rmw'` flag enables the use of GPU on the Verdin iMX8M Plus, where for the TI62 to get access to the GPU you need to set `--device-cgroup-rule='c 226`. Here a couple of examples
 
 - Command to run the Crank container on a IMX8 in Torizon OS 6:
-`docker run -it --rm --name=crank -v /tmp:/tmp -v /var/run/dbus:/var/run/dbus -v /dev/galcore:/dev/galcore --device-cgroup-rule='c 199:* rmw'  cranksoftware/crank_imx8_sb_8_1_weston-vivante_2:v0.1 `
+`docker run -it --rm --name=crank -v /tmp:/tmp -v /var/run/dbus:/var/run/dbus -v /dev/galcore:/dev/galcore --device-cgroup-rule='c 199:* rmw'  cranksoftware/crank_imx8_sb_8_1_weston-vivante_3:v0.1 `
 
 - Command to run the Crank container on a TI62 in Torizon OS 6:
 `docker run -it --rm --name=crank -v /tmp:/tmp -v /var/run/dbus:/var/run/dbus -v /dev/dri:/dev/dri  --device-cgroup-rule='c 226:* rmw'  cranksoftware/crank_ti62_sb_8_1_weston_am62_3:v0.1 `
